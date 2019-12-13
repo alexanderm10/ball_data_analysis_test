@@ -1,0 +1,11 @@
+Ball Analyst Test
+M. Ross Alexander
+12.13.2019
+
+See: Ball_Associate_Bioinfo_Sci_Coding_Challenge.pdf for prompts
+
+1) This analysis identified 8245 genes that showed statistically significant changes between bud and flower phases (alpha = 0.05).  From these initial 8245 genes, I identified 99 genes that were not present in the bud phase but up regulated in the flower phase and 108 genes that were present in the bud phase but then down regulated in the flower phase. These 207 genes appear to be good candidates for further investigation of the desred trait
+
+2) The figure illustrating the position of these genes can found in figures/gene_onoff.png.
+
+3) For this experiment three samples were taken from plants in the bud phase and then two days after flowering. Each of these samples were analyzed to identify genes of interest using the tool Salmon. Using various references, this tool identifies gene sequences of interest and allows us to count how often they are expressed in our samples.  The higher the count, the more these genes are present in each the bud and the flowering phases. By tallying these counts we have identified genes that were either turned on or off as the plants went from the bud phase (closed flowers) to 2 days after the flowering phase. 
