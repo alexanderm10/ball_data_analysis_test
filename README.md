@@ -7,9 +7,9 @@ test_gene_expression_matrix.txt--initial data frame to be analyzed
 Ball_Associate_Bioinfo_Sci_Coding_Challenge.pdf--PDF containing Prompt
 
 ## Submission files:
-ball_analyst_test_writeup_textonly.txt--text only file containing answers to tasks 1, 2, and 3 in the Ball_Associate_Bioinfo_Sci_Coding_Challenge.pdf
-Ball__Analyst_Test_markdown.pdf-- Markdown file showing R-code generated in answering the Ball_Associate_Bioinfo_Sci_Coding_Challenge.pdf prompts. Code is annotated with thought process during analyses.
-gene_onoff.png--figure generated to show the genes of interest in prompt 2 of Ball_Associate_Bioinfo_Sci_Coding_Challenge.pdf
+- ball_analyst_test_writeup_textonly.txt--text only file containing answers to tasks 1, 2, and 3 in the Ball_Associate_Bioinfo_Sci_Coding_Challenge.pdf
+- Ball__Analyst_Test_markdown.pdf-- Markdown file showing R-code generated in answering the Ball_Associate_Bioinfo_Sci_Coding_Challenge.pdf prompts. Code is annotated with thought process during analyses.
+- gene_onoff.png--figure generated to show the genes of interest in prompt 2 of Ball_Associate_Bioinfo_Sci_Coding_Challenge.pdf
 
 ## r_files
 All files used and generated during the analysis period
