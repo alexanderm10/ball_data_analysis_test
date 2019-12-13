@@ -202,3 +202,21 @@ png("figures/gene_onoff.png", height= 8, width = 15, res=300, unit = "in")
 dev.off()
 
 
+# creating dataframes of genes to be investigated further
+summary(rna.mean.stack.bud)
+summary(rna.mean.stack.flower)
+
+rna.mean.bud.keep <- rna.mean.stack.bud[rna.mean.stack.bud$gn.sig=="Y",]
+summary(rna.mean.bud.keep)
+rna.mean.bud.keep$dir <- as.factor("up")
+
+rna.mean.flower.keep <- rna.mean.stack.flower[rna.mean.stack.flower$gn.sig=="Y",]
+summary(rna.mean.flower.keep)
+rna.mean.flower.keep$dir <- as.factor("down")
+
+# Combining the two dataframes together 
+
+gene.invest <- rbind(rna.mean.flower.keep, rna.mean.bud.keep)
+summary(gene.invest)
+
+write.csv(gene.invest, "processed_data/sig_genes.csv", row.names=F)
